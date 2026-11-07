@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 import { tikzPlugin } from './tikz'
 
 // ---- Edit these -----------------------------------------------------------
-const SITE_NAME = "My Site"
+const SITE_NAME = "JolyneAki"
 const DESCRIPTION = 'Math, code, books, and whatever else.'
-const GITHUB_USER = 'your-github-username'
+const GITHUB_USER = 'JolyneAki'
 const REPO = `${GITHUB_USER}.github.io`
 // ---------------------------------------------------------------------------
 
