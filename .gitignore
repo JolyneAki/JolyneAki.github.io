@@ -1,0 +1,5 @@
+node_modules/
+.vitepress/cache/
+.vitepress/dist/
+.vitepress/tikz-cache/
+.DS_Store

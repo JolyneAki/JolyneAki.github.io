@@ -1,0 +1,122 @@
+/* ---------- TikZ diagrams ---------- */
+.vp-doc .tikz {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+  overflow-x: auto;
+  color: var(--vp-c-text-1);
+}
+.vp-doc .tikz svg {
+  flex: none;
+  max-width: none;
+}
+
+.vp-doc .tikz-error {
+  margin: 16px 0;
+  padding: 12px 16px;
+  border-left: 3px solid var(--vp-c-danger-1);
+  background: var(--vp-c-danger-soft);
+  border-radius: 6px;
+  font-size: 14px;
+}
+.vp-doc .tikz-error pre {
+  margin: 8px 0 0;
+  white-space: pre-wrap;
+  font-size: 12.5px;
+}
+
+/* ---------- Epigraph (monospace, commonplace-book feel) ---------- */
+.vp-doc .epigraph {
+  margin: 8px 0 40px;
+  font-family: var(--vp-font-family-mono);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.vp-doc .epigraph blockquote {
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: var(--vp-c-text-1);
+  white-space: pre-line;
+}
+.vp-doc .epigraph blockquote > p {
+  font-size: inherit;
+  color: inherit;
+}
+.vp-doc .epigraph figcaption {
+  margin-top: 14px;
+  text-align: right;
+  color: var(--vp-c-text-2);
+  display: flex;
+  flex-direction: column;
+}
+.vp-doc .epigraph .source {
+  font-style: italic;
+  font-size: 13px;
+}
+
+/* ---------- Post tables ---------- */
+.vp-doc table.post-list {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+.vp-doc table.post-list td.date {
+  white-space: nowrap;
+  color: var(--vp-c-text-2);
+  font-variant-numeric: tabular-nums;
+  width: 1%;
+}
+.vp-doc table.post-list .desc {
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+  line-height: 1.5;
+  margin-top: 2px;
+}
+.vp-doc table.post-list td.section {
+  color: var(--vp-c-text-2);
+  text-transform: capitalize;
+  width: 1%;
+}
+.vp-doc table.post-list td.empty {
+  color: var(--vp-c-text-3);
+  font-style: italic;
+}
+.vp-doc table.post-list a {
+  text-decoration: none;
+  font-weight: 500;
+}
+.vp-doc table.post-list a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Books page: plain monospace lists ---------- */
+.books-page .vp-doc ul {
+  list-style: none;
+  padding-left: 0;
+  font-family: var(--vp-font-family-mono);
+  font-size: 13.5px;
+}
+.books-page .vp-doc li {
+  margin: 6px 0;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+.books-page .vp-doc li em {
+  color: var(--vp-c-text-2);
+}
+
+/* ---------- Post header (date under title) ---------- */
+.vp-doc .post-meta {
+  margin-top: -8px;
+  margin-bottom: 24px;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+}
+
+/* Display math: scroll sideways on narrow screens rather than overflowing */
+.vp-doc mjx-container[display='true'] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
