@@ -8,9 +8,9 @@ Wir müssen wissen.<br>
 Wir werden wissen.
 </Epigraph>
 
-# Hi, I'm ___
+# Hi, I'm Josh/lyne
 
-This is where I keep things: notes on what I'm reading, writeups of problems I've worked through, projects I'm building, and the occasional longer post. Expect math.
+This is kind of my webpage for now. I made this to host some of my writing, If I ever decide to put stuff here. Expect math.
 
 ## Latest
 
